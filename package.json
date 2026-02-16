@@ -1,0 +1,32 @@
+{
+  "name": "@apihub/agent-version-manager",
+  "version": "1.0.0",
+  "description": "Semantic versioning manager for agent pipelines - MAJOR, MINOR, PATCH releases",
+  "main": "dist/repository.js",
+  "types": "dist/repository.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "semantic",
+    "versioning",
+    "release",
+    "major",
+    "minor",
+    "patch"
+  ],
+  "author": "APIHub",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^9.0.1",
+    "crypto-js": "^4.2.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/uuid": "^9.0.7",
+    "@types/crypto-js": "^4.2.2",
+    "typescript": "^5.3.3"
+  }
+}
